@@ -35,7 +35,7 @@ const Value = () => {
     return (
       <div className='flex justify-center items-center gap-5' key={card.id}>
         <div className='text-xl text-white bg-gradient-to-b from-green-500 to-green-800 rounded-full '>
-         <span className=' w-[50px] h-[50px] flex justify-center items-center'>{card.icon}</span> 
+         <span className=' w-[60px] h-[60px] flex justify-center items-center '>{card.icon}</span> 
         </div>
         <div className=''>
           <h1 className='text-4xl font-bold py-3'>{card.title}</h1>
@@ -66,7 +66,7 @@ const Value = () => {
           </div>
 
           {/* Left Values  */}
-          <div className='flex flex-col justify-around gap-15 mt-15'  >{rightRender}</div>
+          <div className='flex flex-col justify-around gap-15 md:mt-0 mt-15 '  >{rightRender}</div>
 
 
         </div>
