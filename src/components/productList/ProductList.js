@@ -53,14 +53,14 @@ const products = [
         image: cabbage,
         title: "Cabbage",
         price: "$3.00",
-        category: "vagetable"
+        category: "Vagetables"
     },
     {
          id:5,
         image: Eggplant,
         title: "Eggplant",
         price: "$3.00",
-        category: "vagetable"
+        category: "Dairy"
     },
     {
          id:6,
@@ -83,14 +83,14 @@ const products = [
         image: Capsicum,
         title: "Capsicum",
         price: "$3.00",
-        category: "vagetable"
+        category: "Vagetables"
     },
     {
          id:9,
         image: Broccoli,
         title: "Broccoli",
         price: "$3.00",
-        category: "Vagetable"
+        category: "Vagetables"
 
     },
     {
@@ -134,7 +134,7 @@ const products = [
         image: CondensedMilk,
         title: "CondensedMik",
         price: "$3.00",
-        category: "vagetable"
+        category: "Dairy"
 
     },
      {
@@ -206,7 +206,7 @@ const products = [
         image: Lettuce,
         title: "Lettuce",
         price: "$3.00",
-        category: "vagetable"
+        category: "Vagetables"
     },
 ]
 
