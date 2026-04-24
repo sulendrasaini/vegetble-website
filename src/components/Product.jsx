@@ -28,7 +28,7 @@ const Product = () => {
             <div className='max-w-[1400px] py-20 px-10 mx-auto'>
 
                 {/* Products Tabs */}
-                <div className='flex justify-center gap-2 py-20'>{tabs.map((tab) => (
+                <div className='flex flex-wrap justify-center gap-2 py-20'>{tabs.map((tab) => (
                     <button key={tab} onClick={() => setActiveTab(tab)} className={`text-lg font-medium  px-6 py-2 rounded-lg cursor-pointer ${activeTab === tab ? "text-white bg-gradient-to-b from-green-600 to-green-900" : "bg-zinc-200"} transition-all duration-300`}  >
                         {tab}
                     </button>

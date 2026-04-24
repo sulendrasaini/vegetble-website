@@ -4,15 +4,16 @@ import Discount_image from '../assets/image/discount-bannerr.png'
 
 const Discount = () => {
     return (
-        <section className='bg-zinc-200 bg-center bg-right bg-no-repeat bg-right' style={{backgroundImage: `url(${Discount_image})`}}>
-            <div className=' flex max-w-[1400px] mx-auto py-10'>
-                <span className=' text-9xl font-bold rotate-270 h-fit self-center text-green-900'>20%</span>
+        <section className='bg-zinc-200 bg-blend-color-burn bg-cover bg-no-repeat bg-right ' style={{backgroundImage: `url(${Discount_image})`}}>
+            <div className=' md:flex max-w-[1400px] mx-auto py-10'>
+                <div className=' md:text-9xl text-6xl md:text-start text-center font-bold md:rotate-270 md:h-fit self-center text-green-900'>20%</div>
 
-                <div className='flex justify-between '>
+                <div className='flex justify-between md:text-start text-center'>
                     <div className='my-auto flex flex-col gap-3 max-w-[700px] '>
-                        <h1 className='text-6xl text-zinc-800 font-bold '>First Order <br /> Discount!</h1>
-                        <p className='text-zinc-600'>Enjoy an exclusive first order discount on our Grociry website Shop fresh essentials and save big on you first purchase. Fast Delivery and Quality guaranteed</p>
-                        <Button content="Get a Discount" />
+                        <h1 className='md:text-7xl text-5xl text-zinc-900 font-bold '>First Order <br /> Discount!</h1>
+                        <p className='text-zinc-800 font-semibold'>Enjoy an exclusive first order discount on our Grociry website Shop fresh essentials and save big on you first purchase. Fast Delivery and Quality guaranteed</p>
+                        <div className=''><Button content="Get a Discount" /></div>
+                        
                     </div>
 
                     {/* <div className='h-full w-[500px]'>
