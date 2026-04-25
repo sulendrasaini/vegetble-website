@@ -21,7 +21,7 @@ const Process = () => {
 const renderProcess = steps.map((step) =>{
 
   return(
-    <div  className={`md:mt-20 ${step.id % 2 === 1 ? "md:pt-50 pt-20" : " "} ${step.id % 2 === 0 ? "pt-20" : " "}`} key={step.id}>
+    <div  className={`md:mt-5  ${step.id % 2 === 1 ? "md:pt-50 pt-20" : " "} ${step.id % 2 === 0 ? "pt-20" : " "}`} key={step.id}>
 
       <div className='text-7xl w-fit mx-auto ml-27 text-zinc-800 outline-3 outline-dotted rounded-full outline-offset-8'>{step.number}</div>
 

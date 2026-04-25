@@ -12,7 +12,7 @@ const Discount = () => {
                     <div className='my-auto flex flex-col gap-3 max-w-[700px] '>
                         <h1 className='md:text-7xl text-5xl text-zinc-900 font-bold '>First Order <br /> Discount!</h1>
                         <p className='text-zinc-800 font-semibold'>Enjoy an exclusive first order discount on our Grociry website Shop fresh essentials and save big on you first purchase. Fast Delivery and Quality guaranteed</p>
-                        <div className=''><Button content="Get a Discount" /></div>
+                        <div className='mb-10'><Button content="Get a Discount" /></div>
                         
                     </div>
 

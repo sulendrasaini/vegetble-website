@@ -45,12 +45,12 @@ const Testimonials = () => {
 
     return (
         <section>
-            <div className='max-w-[1400px] mx-auto py-20 px-10'>
+            <div className='max-w-[1400px] mx-auto py-10 px-10'>
                 <Headings highLight="Customers" normalWord="Saying" />
 
 
                     
-                <div className='  flex justify-between mt-20 '>
+                <div className='  flex justify-between mt-8 '>
                     <FaArrowCircleLeft className='text-5xl p-2 rounded-lg  bg-zinc-200 hover:scale-110' />
                     <FaArrowCircleRight  className='text-5xl p-2 rounded-lg  bg-zinc-200 hover:scale-110 '/>
                 </div>
