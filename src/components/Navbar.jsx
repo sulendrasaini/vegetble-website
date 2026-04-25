@@ -32,23 +32,23 @@ const Navbar = () => {
             Gr<span className="text-green-800 uppercase ">O</span>cify
           </a>
           {/* Destop Menu */}
-          <ul className="md:flex gap-x-15 text-xl font-semibold tracking-widest text-zinc-800 hidden">
-            <li>
-              <a href="#" className="text-green-800">
+          <ul className="md:flex gap-x-15 text-xl font-semibold tracking-widest text-zinc-800 hidden ">
+            <li className="hover:scale-102">
+              <a href="#" className="text-green-800 ">
                 Home
               </a>
             </li>
-            <li>
+            <li className="hover:scale-102">
               <a href="#" className="hover:text-green-800">
                 About Us
               </a>
-            </li>
-            <li>
+            </li >
+            <li className="hover:scale-102">
               <a href="#" className="hover:text-green-800">
                 Process
               </a>
             </li>
-            <li>
+            <li className="hover:scale-102">
               <a href="#" className="hover:text-green-800">
                 Contect Us
               </a>
@@ -59,20 +59,20 @@ const Navbar = () => {
             {/* Input-field */}
             <div className="border-2 border-green-800 p-2 rounded-full md:flex hidden">
               <input
-                className="text-zinc-900 px-4 flex-1 h-[4vh] focus:outline-none"
+                className="self-center text-zinc-900 px-4 flex-1 h-[4vh] focus:outline-none"
                 type="search"
                 placeholder="Search..."
                 autoComplete="off"
               />
-              <button className=" rounded-full text-white w-10 h-10 items-center flex justify-center text-xl bg-gradient-to-b from-green-800 to-green-600 cursor-pointer">
-                <IoSearchSharp />
+              <button className=" rounded-full text-white w-10 h-10 items-center flex justify-center text-xl hover:scale-110 bg-gradient-to-b from-green-800 to-green-600 cursor-pointer">
+                <IoSearchSharp className="" />
               </button>
             </div>
 
-            <a href="#" className="text-zinc-800 text-3xl">
+            <a href="#" className="text-zinc-800 text-3xl hover:scale-120">
               <IoHeart />
             </a>
-            <a href="#" className="text-zinc-800 text-3xl">
+            <a href="#" className="text-zinc-800 text-3xl hover:scale-120">
               <IoBagHandle />
             </a>
 

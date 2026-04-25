@@ -28,8 +28,8 @@ const Card = ({image,title, price,id}) => {
 
                 {/* Card Icon=> Heart & Plus  */}
                 <div className='flex justify-between px-4 py-3'>
-                    <button className={`text-2xl cursor-pointer hover:scale-120  transition duration-200 ${likedItems.includes(id) ? "text-red-600" : "bg-zinc-200"}`} onClick={() => toggleLike(id)} ><BsHeartFill /></button>
-                    <button className='text-white text-xl px-4 py-2 rounded cursor-pointer bg-gradient-to-b from-green-700 to-green-900 hover:scale-105  transition duration-200'><FaPlus /></button>
+                    <button className={`text-2xl cursor-pointer hover:scale-140  transition duration-200 ${likedItems.includes(id) ? "text-red-600" : "bg-zinc-200"}`} onClick={() => toggleLike(id)} ><BsHeartFill /></button>
+                    <button className='text-white text-xl px-4 py-2 rounded cursor-pointer bg-gradient-to-b from-green-700 to-green-900 hover:scale-110  transition duration-200'><FaPlus /></button>
                 </div>
 
                 {/* Card Content  */}

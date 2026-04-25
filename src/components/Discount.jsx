@@ -5,7 +5,7 @@ import Discount_image from '../assets/image/discount-bannerr.png'
 const Discount = () => {
     return (
         <section className='bg-zinc-200 bg-blend-color-burn bg-cover bg-no-repeat bg-right ' style={{backgroundImage: `url(${Discount_image})`}}>
-            <div className=' md:flex max-w-[1400px] mx-auto py-10'>
+            <div className=' md:flex max-w-[1400px] mx-auto '>
                 <div className=' md:text-9xl text-6xl md:text-start text-center font-bold md:rotate-270 md:h-fit self-center text-green-900'>20%</div>
 
                 <div className='flex justify-between md:text-start text-center'>

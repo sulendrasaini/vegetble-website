@@ -5,6 +5,10 @@ import Category from './Category'
 import Value from './Value'
 import Product from './Product'
 import Discount from './Discount'
+import Process from './Process'
+import Testimonials from './Testimonials'
+import Footer from './Footer'
+
 
 
 const Home = () => {
@@ -16,6 +20,9 @@ const Home = () => {
       <Value/>
       <Product/>
       <Discount/>
+      <Process/>
+      <Testimonials/>
+      <Footer/>
     </div>
   )
 }
