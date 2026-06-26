@@ -23,6 +23,7 @@ import SliceCheese from "../../assets/image/slice-cheese.png"
 import RicottaCheese from "../../assets/image/ricotta-cheese.png"
 import Grapes from "../../assets/image/Grapes.png"
 import Lettuce from "../../assets/image/lettuce.png"
+import AllProduct from "../allProduct/AllProduct"
 
 
 
@@ -32,49 +33,56 @@ const products = [
         image: strawberry,
         title: "Strawberry",
         price: "$3.00",
-        category: "Fruits"
+        category: "Fruits",
+    
     },
     {
         id:2,
         image: butter,
         title: "Butter",
         price: "$3.50",
-        category: "Dairy"
+        category: "Dairy",
+
     },
     {
         id:3,
         image: eggs,
         title: "Eggs",
         price: "$2.05",
-        category : "Dairy"
+        category : "Dairy",
+         
     },
     {
         id:4,
         image: cabbage,
         title: "Cabbage",
         price: "$3.00",
-        category: "Vagetables"
+        category: "Vagetables",
+   
     },
     {
          id:5,
         image: Eggplant,
         title: "Eggplant",
         price: "$3.00",
-        category: "Dairy"
+        category: "Vagetables",
+       
     },
     {
          id:6,
         image: Shrimp,
         title: "Shrimp",
         price: "$3.00",
-        category: "Sead Food"
+        category: "Sea Food",
+       
     },
     {
          id:7,
         image: Kiwi,
         title: "Kiwi",
         price: "$3.00",
-        category: "Fruit"
+        category: "Fruits",
+       
 
     },
 
@@ -83,14 +91,16 @@ const products = [
         image: Capsicum,
         title: "Capsicum",
         price: "$3.00",
-        category: "Vagetables"
+        category: "Vagetables",
+         
     },
     {
          id:9,
         image: Broccoli,
         title: "Broccoli",
         price: "$3.00",
-        category: "Vagetables"
+        category: "Vagetables",
+         
 
     },
     {
@@ -98,35 +108,40 @@ const products = [
         image: Yogurt,
         title: "Yogurt",
         price: "$3.00",
-        category: "Dairy"
+        category: "Dairy",
+         
     },
     {
          id:11,
         image: Beef,
         title: "Beef",
         price: "$3.00",
-        category: "Sea Food"
+        category: "Sea Food",
+         
     },
      {
          id:12,
         image: ChickenBreast,
         title: "CkickenBreast",
         price: "$3.00",
-        category: "Sea Food"
+        category: "Sea Food",
+         
     },
      {
          id:13,
         image: Kale,
         title: "Kale",
         price: "$3.00",
-        category: "Sea Food"
+        category: "Sea Food",
+         
     },
      {
          id:14,
         image: Cheese,
         title: "Cheese",
         price: "$3.00",
-        category: "Dairy"
+        category: "Dairy",
+         
 
     },
      {
@@ -134,7 +149,8 @@ const products = [
         image: CondensedMilk,
         title: "CondensedMik",
         price: "$3.00",
-        category: "Dairy"
+        category: "Dairy",
+         
 
     },
      {
@@ -142,63 +158,72 @@ const products = [
         image: Salmon,
         title: "Salmon",
         price: "$3.00",
-        category: "Sea Food"
+        category: "Sea Food",
+         
     },
     {
          id:17,
         image: Banana,
         title: "Banana",
         price: "$3.00",
-        category: "Fruits"
+        category: "Fruits",
+         
     },
     {
          id:18,
         image: Milk,
         title: "Milk",
         price: "$3.00",
-        category: "Dairy"
+        category: "Dairy",
+         
     },
     {
          id:19,
         image: Pineapple,
         title: "pineapple",
         price: "$3.00",
-        category: "Fruit"
+        category: "Fruits",
+         
     },
     {
          id:20,
         image: Tofu,
         title: "Tofu",
         price: "$3.00",
-        category: "Dairy"
+        category: "Dairy",
+         
     },
     {
          id:21,
         image: Tilapia,
         title: "Tilapia",
         price: "$3.00",
-        category:"Sea Food"
+        category:"Sea Food",
+         
     },
      {
          id:22,
         image: SliceCheese,
         title: "SliceCheese",
         price: "$3.00",
-        category : "Dairy"
+        category : "Dairy",
+         
     },
      {
          id:23,
         image: RicottaCheese,
         title: "RicottaCheese",
         price: "$3.00",
-        category: "Dairy"
+        category: "Dairy",
+         
     },
      {
          id:24,
         image: Grapes,
         title: "Grapes",
         price: "$3.00",
-        category: "Fruits"
+        category: "Fruits",
+         
 
     },
      {
@@ -206,7 +231,8 @@ const products = [
         image: Lettuce,
         title: "Lettuce",
         price: "$3.00",
-        category: "Vagetables"
+        category: "Vagetables",
+         
     },
 ]
 

@@ -3,6 +3,7 @@ import Headings from './heading/Headings'
 import Card from './card/Card.jsx';
 import ProductList from "../components/productList/ProductList.js"
 import Button from './button/Button.jsx';
+import { Link } from 'react-router-dom';
 
 const Product = () => {
 
@@ -39,7 +40,7 @@ const Product = () => {
 
                 {/* Product Listings */}
                 <div className='grid md:grid-cols-4 grid-cols-1 gap-9'>{renderCardLists}</div>
-                <div className='w-fit mx-auto pt-10'> <Button content="View All"/></div>
+                <div className='w-fit mx-auto pt-10'><Link to="/allProduct" className='text-white bg-gradient-to-b from-green-700 to-green-900 py-3 px-8 rounded-lg md:text-lg text-md   font-semibold hover:shadow-2 xl hover:scale-105 hover:to-green-950 transition-all duration-200 cursor-pointer'>Veiw All</Link></div>
                
                 
             </div>
